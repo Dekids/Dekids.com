@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@media only screen and (min-width: 576px) {
+  header{
+    height: 100vh;
+    background: url('../img/shadow_dekidsers.png'),url('../img/luna.png') ,radial-gradient(ellipse at bottom, #0A3C8C 0%, #011B44 50%);
+    background-size: 75vh , 30vh ,auto;
+    background-repeat: no-repeat;
+    background-position: left,right top;
+    overflow: hidden;
+    color:white;
+  }
+  .dekids_atom{
+    max-width:17%;
+  }
+  .ic_dekids{
+    max-width:25%;
+  }
+  .dekids_universer{
+    max-width:55%;
+  }
+  .dekids_game{
+    max-width:8%;
+  }
+  div img{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  header{
+    height: 100vh;
+    background:radial-gradient(ellipse at bottom, #0A3C8C 0%, #011B44 50%);
+    overflow: hidden;
+    color:white;
+  }
+  div img{
+    width: 80%;
+  }
+  .dekids_atom{
+    padding-top: 100px;
+    max-width:45%;
+  }
+  .dekids_universer{
+    max-width:95%;
+  }
+  .dekids_game{
+    max-width:25%;
+  }
+  .ic_dekids{
+    max-width:90%;
+  }
+}
+.navbar{
+   background-color: transparent !important;
+}
+
+footer div:first-child{
+  background: radial-gradient(ellipse at top, #b1ec04 0%, #99cc00 50%)
+}
+footer div:nth-child(2) {
+  background:radial-gradient(ellipse at bottom, #0A3C8C 0%, #003771  20%);
+}
+footer div a{
+  color: white;
+}
+
+footer div a:hover{
+  color: #000000;
+}
+
+.light{
+  height: auto;
+  background: url('../img/bg_white.jpg');
+  background-size: contain;
+  overflow: hidden;
+}
+.dark{
+  height: auto;
+  background:radial-gradient(ellipse at bottom, #0A3C8C 0%, #003771  20%);
+  overflow: hidden;
+  color:white;
+}
+.dark-2{
+  height: auto;
+  background:radial-gradient(ellipse at top, #0A3C8C 0%, #011B44 50%);
+  overflow: hidden;
+  color:white;
+}
+ .text-acce{
+   color: #99cc00;
+ }
+ .bg-acce{
+   background: #99cc00 !important;
+ }
